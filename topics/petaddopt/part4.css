@@ -1,0 +1,13 @@
+#alpha{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 0,0,1);
+}
+
+#opacity{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 0,0);
+    opacity : 0.5;
+    it is for reducing the visibility
+}

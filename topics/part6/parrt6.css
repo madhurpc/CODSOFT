@@ -1,0 +1,32 @@
+#container{
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    display: grid;
+    /* display: inline-grid; */
+    /* grid-template-columns: 70px 70px 70px  ;
+    grid-template-rows: auto auto ; */
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+     row-gap: 10px; /* it is for giving gap in row or column */
+     justify-items: end;
+     align-items: end;
+     /* place-items: center; */
+
+
+
+}
+
+#container div{
+    height: 60px;
+    width: 50px;
+    background-color: rgb(81, 191, 81);
+    border: 2px solid black;
+    text-align: center;
+}
+
+.one{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    justify-self: start;
+}
